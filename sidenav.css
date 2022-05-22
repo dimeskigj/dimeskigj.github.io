@@ -1,0 +1,160 @@
+#other-side {
+    margin-left: 20vw;
+}
+
+main {
+    height: 100vh;
+    background-color: #fdfdfd;
+}
+
+/*  sidenav */
+
+#header-title {
+    font-family: "Pacifico", cursive;
+    color: #564D78;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 20vw; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 15px -3px inset, rgba(0, 0, 0, 0.05) 0px -4px 6px -2px inset;
+
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidenav .main-sidenav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidenav hr {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+/* lessons */
+
+.lessons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.5%;
+}
+
+.lessons h4 {
+    color: #564D78;
+}
+
+.lessons a {
+    text-decoration: none;
+    color: #000;
+    background-color: #f1f1f1;
+
+    border-radius: 0.2em;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 3em;
+    margin: 0.1em 0;
+    padding: 0.1em 0.5em;
+}
+
+.lessons a:hover {
+    color: #fdfdfd;
+    background-color: #564D78;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.lessons .selected {
+    color: #fdfdfd;
+    background-color: #564D78;
+}
+
+/* search */
+
+.search-form {
+    width: 100%;
+    padding: 0.5em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 1em 0 0 1em;
+
+    border: 1px solid #564D78;
+
+    width: 65%;
+    height: 3em;
+    padding: 0.5em;
+    margin: 0;
+}
+
+.search-btn {
+    color: #fdfdfd;
+    text-decoration: none;
+    cursor: pointer;
+
+    background-color: #564D78;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius: 0 1em 1em 0;
+
+    width: 30%;
+    height: 3em;
+    margin: 0;
+    padding: 0.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-btn:hover {
+    background-color: rgba(148, 187, 233, 0.5);
+    color: #564D78;
+}
+
+/* test */ 
+
+.sidenav-take-test {
+    width: 100%;
+}
+
+.sidenav-take-test a {
+    text-decoration: none;
+    color: #564D78;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+
+    width: 100%;
+    padding: 1em;
+
+    text-align: center;
+    background-color: #9ACBD0;
+}
+
+.sidenav-take-test a:hover {
+    color: #9ACBD0;
+    background-color: #564D78;
+}
