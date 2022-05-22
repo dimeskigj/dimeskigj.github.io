@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 75%;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin: 1em;
+    width: 49%;
+}
+
+.submit-btn:hover {
+    background-color: #fdfdfd !important;
+    color: #564D78 !important;
+    border: 1px solid #564D78;
+}

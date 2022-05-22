@@ -1,0 +1,41 @@
+#other-side {
+    padding: 1em 3em;
+    margin-bottom: 1em;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+form h1 {
+    color: #564D78;
+}
+
+form .question {
+    margin-top: 1em;
+    padding: 2em;
+    border-radius: 1em;
+    background-color: #f8f8f8;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+form .question > label {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.submit-btn {
+    margin: 1em 0;
+    margin-bottom: 2em !important;
+    height: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    background-color: #fdfdfd !important;
+    color: #564D78 !important;
+    border: 1px solid #564D78;
+}

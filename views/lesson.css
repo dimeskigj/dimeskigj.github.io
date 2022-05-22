@@ -1,0 +1,33 @@
+main {
+    padding: 1em 3em;
+}
+
+main h1 {
+    color: #564d78;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+main section h3 {
+    color: #564d78;
+}
+
+main section p {
+    text-align: justify;
+}
+
+main section img {
+    align-self: center;
+    padding-bottom: 2em;
+}
+
+.submit-btn:hover {
+    background-color: #fdfdfd !important;
+    color: #564D78 !important;
+    border: 1px solid #564D78;
+}
+
+/* progress */

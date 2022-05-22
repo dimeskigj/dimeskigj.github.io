@@ -1,0 +1,24 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* background: #EBDED1; */
+}
+
+main h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 5em;
+    color: #564D78;
+}
+
+main h3 {
+    
+    color: #564D78;
+}
+
+main div {
+    text-align: center;
+    font-size: 1.25em;
+}
